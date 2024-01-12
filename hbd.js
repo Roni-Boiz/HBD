@@ -286,13 +286,13 @@ function drawName(name, letterColors) {
  
 window.reset = false;
  
-$(window).mouseleave(function () {
-    window.reset = true;
-});
+// $(window).mouseleave(function () {
+//     window.reset = true;
+// });
  
-$(window).mouseenter(function () {
-    window.reset = false;
-});
+// $(window).mouseenter(function () {
+//     window.reset = false;
+// });
  
 var canvas = $("#myCanvas");
 var canvasHeight;
