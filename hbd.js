@@ -355,5 +355,5 @@ else
 }
 
 bounceBubbles();
-wrapText(ctx, birthday, x, y, 1000, 500)
+wrapText(ctx, birthday, pointCollection.pointCollectionX, pointCollection.pointCollectionY, 1600, 500)
 
