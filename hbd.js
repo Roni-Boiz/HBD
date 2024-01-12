@@ -335,6 +335,5 @@ else
     bubbleShape = 'circle';
 }
 
-document.onload = function(){
-    bounceBubbles();
-}
+bounceBubbles();
+
